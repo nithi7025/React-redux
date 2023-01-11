@@ -8,18 +8,19 @@
   border:2px dashed red;
   display:flex;
   flex-direction: column;
+  
 }
 .header,
 .main,
 .footer{
-  border:2px dashed blue;
+  border:2px dashed rgb(13, 15, 13);
   margin:20px;
   padding:10px;
 }
 .main{
   flex:1;
   display: grid;
-  grid-template-columns: 4fr 2fr;
+  grid-template-columns: 6fr 3fr;
 }
 
 .counter,
@@ -35,4 +36,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.button:hover{
+  transform: scale(1.1);
+  
 }
